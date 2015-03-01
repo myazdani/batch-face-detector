@@ -10,7 +10,7 @@ src_path = sys.argv[1]
 classifier_path = sys.argv[2]
 write_path = sys.argv[3]
 #src_path = "/Users/myazdaniUCSD/Documents/selfiecity/images/selfies/thumb/"
-classifier_path = '/Applications/OpenCV/opencv-2.4.8/data/haarcascades/haarcascade_frontalface_alt.xml'
+#classifier_path = '/Applications/OpenCV/opencv-2.4.8/data/haarcascades/haarcascade_frontalface_alt.xml'
 #write_path = "./results"
 
 image_paths_list = []  
