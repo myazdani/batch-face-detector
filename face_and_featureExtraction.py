@@ -21,7 +21,7 @@ for root, dirs, files in os.walk(src_path):
 def chunks(l, n):
   for i in xrange(0, len(l), n): yield l[i:i+n]
 
-image_paths_list = list(chunks(image_paths_list, len(image_paths_list)/10000))
+image_paths_list = list(chunks(image_paths_list, len(image_paths_list)/1))
 
 face_cascade = cv2.CascadeClassifier(classifier_path)
 #face_cascade = cv2.CascadeClassifier()
